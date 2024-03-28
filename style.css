@@ -117,4 +117,49 @@ button:hover{
     height: 95%;
     width: 90%;
 }
+@media  (max-width:500px) {
+    .nav{
+    max-width: 500px;
+    padding:10px 10px 5px 10px;
+    font-size: 10px;
+    }
+    .nav ul li{
+        margin-left: 10px;
+ 
+    }
+    .nav .icon img{
+        height: 30px;
+        width: 40px;
+        margin-left: 10px;
+    }
+    ul button{
+        margin-left: 10px;
+        width: 50px;
+        height: 20px; 
+        font-size: 10px;  
+    }
+    .section{
+        max-width: 500px;
+        gap:40px;
+    }
+    .info{
+        gap:10px;
+        max-width: 200px;
+        margin:30px 0 0 10px;
+    }
+    .info h1{
+        font-size: 27px;
+     line-height: 40px; 
+    }
+    .info p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .info button{
+        width: 90px;
+        padding: 7px 15px;      
+        margin-left:30px;
+        font-size: 10px;
+    }
+}
 
