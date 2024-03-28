@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="icon">
+            <img src="./images/tom.png" alt="icon">
+        </div>
+        <ul>
+            <li>HOME</li>
+            <li>CONTECT</li>
+            <li>MENU</li>
+            <li>ABOUT</li>
+            <button id="theme">LIGHT</button>
+        </ul>      
+    </div>
+    <div class="section">
+    <div class="info">
+        <h1>HELLO, I AM VIJAY CHOPRA</h1>
+        <p>THIS IS TUTORIAL FOR LIGHT MODE AND DARK MODE THEME USING HTML , CSS AND JAVASCRIPT</p>
+        <button>DOWNLOAD NOW</button>
+    </div>
+    <div class="image">
+        <img src="./images/sini.png" alt="sinchan">
+    </div>
+    </div>
+
+    <script>
+       const theme=document.getElementById("theme");
+       theme.onclick =function(){
+        document.body.classList.toggle("dark-theme")
+        if(document.body.classList.contains("dark-theme")){
+            theme.textContent="LIGHT"
+        }else{
+            theme.textContent="DARK"
+        }
+       }
+    </script>
+</body>
+</html>
