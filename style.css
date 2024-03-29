@@ -125,12 +125,13 @@ button:hover{
     }
     .nav ul li{
         margin-left: 10px;
+        font-weight: bold;
  
     }
     .nav .icon img{
-        height: 30px;
-        width: 40px;
-        margin-left: 10px;
+        height: 40px;
+        width: 45px;
+        margin-left: 5px;
     }
     ul button{
         margin-left: 10px;
@@ -140,15 +141,16 @@ button:hover{
     }
     .section{
         max-width: 500px;
-        gap:40px;
+        flex-direction: column;
+        gap:15px;
     }
     .info{
         gap:10px;
-        max-width: 200px;
-        margin:30px 0 0 10px;
+        max-width: 420px;
+        margin:15px 10px 0px 10px;
     }
     .info h1{
-        font-size: 27px;
+        font-size: 30px;
      line-height: 40px; 
     }
     .info p{
@@ -156,10 +158,15 @@ button:hover{
         line-height: 25px;
     }
     .info button{
-        width: 90px;
+        width: 150px;
         padding: 7px 15px;      
-        margin-left:30px;
+        margin:5px auto;
         font-size: 10px;
+    }
+    .image img{
+        margin: 15px 30px 0px 40px;
+        height: 70%;
+        width: 70%;
     }
 }
 
